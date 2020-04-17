@@ -1,6 +1,14 @@
 ##### Get precipitation, temperature, and wind speed averaged by country from 1980 to 2019
 ### Author: Matthew Walter, mswalter@udel.edu
 
+# Import and authorize Earth Engine
+# Google Earth Engine API is required to obtain climate data by state and country from raster data
+import ee
+import folium
+ee.Authenticate()
+ee.Initialize()
+
+
 ###### Precipitation
 # Bring in country feature collection
 fc = ee.FeatureCollection('USDOS/LSIB/2013')
