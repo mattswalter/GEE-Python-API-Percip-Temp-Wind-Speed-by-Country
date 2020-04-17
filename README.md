@@ -1,4 +1,4 @@
-# GEE-Python-API-Temp-Wind-Speed-by-Country
+# GEE-Python-API-Precip-Temp-Wind-Speed-by-Country
 
 ### Author: Matthew Walter, mswalter@udel.edu
 
